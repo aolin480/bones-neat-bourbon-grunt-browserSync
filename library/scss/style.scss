@@ -15,6 +15,9 @@ Helpful articles on Sass file organization:
 http://thesassway.com/advanced/modular-css-naming-conventions
 
 ******************************************************************/
+@import "bourbon/bourbon";
+@import "breakpoints/breakpoints";
+@import "neat/neat";
 
 /*********************
 IMPORTING PARTIALS
