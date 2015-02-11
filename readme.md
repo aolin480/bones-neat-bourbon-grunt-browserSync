@@ -19,9 +19,16 @@ Are You Serious? Yes.
 
 #### Special Thanks to:
 Eddie Machado Bones Template
+
+@lacroixdesign for the Node Neat port
+
 Paul Irish & the HTML5 Boilerplate
+
 Yoast for some WP functions & optimization ideas
+
 Andrew Rogers for code optimization
+
 David Dellanave for speed & code optimization
+
 and several other developers. :)
 
