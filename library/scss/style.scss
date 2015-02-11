@@ -16,8 +16,17 @@ http://thesassway.com/advanced/modular-css-naming-conventions
 
 ******************************************************************/
 @import "bourbon/bourbon";
-@import "breakpoints/breakpoints";
 @import "neat/neat";
+/* 
+	neat breakpoints 
+	Use case: 
+
+	@include media($small-only) {
+		*{display: none; }
+	}
+	
+*/
+@import "breakpoints/neat_breakpoints";
 
 /*********************
 IMPORTING PARTIALS
