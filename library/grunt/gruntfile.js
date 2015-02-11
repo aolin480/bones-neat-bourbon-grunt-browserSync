@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 				},
 				options:{
 					watchTask: true,
-					proxy: "local.capstoneresumes.com",
+					proxy: "local.YOURDOMAIN.dev",
 					port: 9999
 				}
 			}
