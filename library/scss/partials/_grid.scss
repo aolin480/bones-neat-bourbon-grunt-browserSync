@@ -77,6 +77,11 @@ them however you see fit.
     width: 75%;
   }
 
+  .m-4of4 {
+    @include grid-col;
+    width: 75%;
+  }
+
 } // end mobile styles
 
 
@@ -132,6 +137,11 @@ them however you see fit.
   .t-4of5 {
     @include grid-col;
     width: 80%;
+  }
+
+  .t-5of5 {
+    @include grid-col;
+    width: 100%;
   }
 
 } // end tablet
@@ -240,14 +250,168 @@ them however you see fit.
     width: 10%;
   }
 
+  .d-2of10 {
+    @include grid-col;
+    width: 20%;
+  }
+
+  .d-3of10 {
+    @include grid-col;
+    width: 30%;
+  }
+
+  .d-4of10 {
+    @include grid-col;
+    width: 40%;
+  }
+
+  .d-5of10 {
+    @include grid-col;
+    width: 50%;
+  }
+
+  .d-6of10 {
+    @include grid-col;
+    width: 60%;
+  }
+
+  .d-7of10 {
+    @include grid-col;
+    width: 70%;
+  }
+
+  .d-8of10 {
+    @include grid-col;
+    width: 80%;
+  }
+
+  .d-9of10 {
+    @include grid-col;
+    width: 90%;
+  }
+
+  .d-10of10 {
+    @include grid-col;
+    width: 100%;
+  }
+
+
+
   .d-1of11 {
     @include grid-col;
     width: 9.09090909091%;
   }
 
+  .d-2of11{
+    @include grid-col;
+    width: 18.181818182%;
+  }
+
+  .d-3of11{
+    @include grid-col;
+    width: 27.272727273%;
+  }
+
+  .d-4of11{
+    @include grid-col;
+    width: 36.363636364%;
+  }
+
+  .d-5of11{
+    @include grid-col;
+    width: 45.454545455%;
+  }
+
+  .d-6of11{
+    @include grid-col;
+    width: 54.545454545%;
+  }
+
+  .d-7of11{
+    @include grid-col;
+    width: 63.636363636%;
+  }
+
+  .d-8of11{
+    @include grid-col;
+    width: 72.727272727%;
+  }
+
+  .d-9of11{
+    @include grid-col;
+    width: 81.818181818%;
+  }
+
+  .d-10of11{
+    @include grid-col;
+    width: 90.909090909%;
+  }
+
+  .d-11of11{
+    @include grid-col;
+    width: 100.000000000%;
+  }
+  
+
   .d-1of12 {
     @include grid-col;
     width: 8.33%;
   }
+
+  .d-2of12{
+    @include grid-col;
+    width: 16.67%;
+  }
+
+  .d-3of12{
+    @include grid-col;
+    width: 25.00%;
+  }
+
+  .d-4of12{
+    @include grid-col;
+    width: 33.33%;
+  }
+
+  .d-5of12{
+    @include grid-col;
+    width: 41.67%;
+  }
+
+  .d-6of12{
+    @include grid-col;
+    width: 50.00%;
+  }
+
+  .d-7of12{
+    @include grid-col;
+    width: 58.33%;
+  }
+
+  .d-8of12{
+    @include grid-col;
+    width: 66.66%;
+  }
+
+  .d-9of12{
+    @include grid-col;
+    width: 75.00%;
+  }
+
+  .d-10of12{
+    @include grid-col;
+    width: 83.33%;
+  }
+
+  .d-11of12{
+    @include grid-col;
+    width: 91.66%;
+  }
+
+  .d-12of12{
+    @include grid-col;
+    width: 100.00%;
+  }
+
 
 } // end desktop styles
